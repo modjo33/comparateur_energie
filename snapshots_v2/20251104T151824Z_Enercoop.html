@@ -1,0 +1,68 @@
+var dataLayerObject = {"environment":"prod","pageCategory":"404","pageSubCategory":null,"pageSubSubCategory":null,"pageSubSubSubCategory":null,"articleName":null,"pageTemplate":"contenu fixe"};
+for(const propertyName in dataLayerObject) {
+if(dataLayerObject[propertyName] === null) {
+dataLayerObject[propertyName] = undefined;
+}
+}
+dataLayer = [dataLayerObject];
+/* This method is called after the tag manager method is loaded in the function initializeMatomo */
+/* For site_corpo we need controller level info, which is why the tag manager can't be packed and `defer`red to the very end */
+window.onloadMatomo = function () {
+window._mtm.push({"environment":"prod","pageCategory":"404","pageSubCategory":null,"pageSubSubCategory":null,"pageSubSubSubCategory":null,"articleName":null,"pageTemplate":"contenu fixe"});
+}
+<link rel="stylesheet" href="https://www.enercoop.fr/vite/assets/site_corpo-PXgA6X_0.css" media="all">
+<link rel="modulepreload" href="https://www.enercoop.fr/vite/assets/modal-DOJ-DYgf.js" as="script" crossorigin="anonymous" data-turbolinks-track="reload">
+<link rel="modulepreload" href="https://www.enercoop.fr/vite/assets/klaro-config-C_tvvxuJ.js" as="script" crossorigin="anonymous" data-turbolinks-track="reload">
+<link rel="modulepreload" href="https://www.enercoop.fr/vite/assets/slider-BWwKma1E.js" as="script" crossorigin="anonymous" data-turbolinks-track="reload">
+<link rel="modulepreload" href="https://www.enercoop.fr/vite/assets/_commonjsHelpers-Cpj98o6Y.js" as="script" crossorigin="anonymous" data-turbolinks-track="reload">
+<link rel="modulepreload" href="https://www.enercoop.fr/vite/assets/on_load_async-Dd9lPJDF.js" as="script" crossorigin="anonymous" data-turbolinks-track="reload">
+<link rel="modulepreload" href="https://www.enercoop.fr/vite/assets/index-DK_IoeUh.js" as="script" crossorigin="anonymous" data-turbolinks-track="reload">
+function(w,d,s,l,i)
+{
+var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+j.async=true;
+const tagType = 'application/javascript';
+j.src = tagSrc;
+j.type = tagType;
+f.parentNode.insertBefore(j,f);
+}
+function initializeMatomo(matomoTagManager) {
+if (matomoTagManager) {
+window._mtm = window._mtm || [];
+window._mtm.push({ 'mtm.startTime': (new Date().getTime()), event: 'mtm.Start' });
+const d = document; const g = d.createElement('script'); const
+s = d.getElementsByTagName('script')[0];
+const scriptUrl = `https://cdn.matomo.cloud/enercoop.matomo.cloud/container_${matomoTagManager}.js`;
+const tagType = 'application/javascript';
+g.async = true;
+g.type = tagType;
+g.src = scriptUrl;
+s.parentNode.insertBefore(g, s);
+if (window.onloadMatomo) {
+window.onloadMatomo();
+}
+} else {
+window._mtm = { push() {} };
+}
+}
+initializeMatomo("dpxSz1bf");
+window.skpBus=window.skpBus||function(){
+var p=[];
+Array.prototype.push.apply(p,arguments);
+return (window.skpBus.p=window.skpBus.p||[]).push(p);
+}
+if(typeof sendVisibleEventSent === 'undefined') {
+let sendVisibleEventSent = false;
+const observer = new IntersectionObserver((entries, observer) => {
+if(entries[0].isIntersecting && !sendVisibleEventSent) {
+skpBus('emit', 'rr:brand_review_widget_visible',
+{widget_id:"ab1e1977-8daf-4112-a038-aa79fbab612a", rating:4.851963746223565 , review_count: 331 });
+sendVisibleEventSent = true;
+}
+});
+const badgeElem = document.getElementById("ab1e1977-8daf-4112-a038-aa79fbab612a")
+observer.observe(badgeElem);
+badgeElem.onclick = function() { skpBus('emit', 'rr:brand_review_widget_click',
+{widget_id:"ab1e1977-8daf-4112-a038-aa79fbab612a", rating:4.851963746223565 , review_count: 331 }) }
+}

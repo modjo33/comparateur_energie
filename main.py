@@ -2,6 +2,9 @@ import schedule
 import time
 from scrapers import edf, engie
 from utils import db, alertes
+from scrapers.alpiq import AlpiqScraper
+from scrapers.edf import EDFScraper
+
 
 def mise_a_jour():
     print("Lancement de la mise à jour des tarifs...")

@@ -1,0 +1,38 @@
+{
+  "Ohm Énergie": {
+    "hash": "055c5ec21807f47644ee36c256abf21921eeecea14e6ed485fd08004717ee2c7",
+    "last_check": "2025-11-03T18:36:16"
+  },
+  "Ekwateur": {
+    "hash": "32edb887b5a54f2865208e0aae9240d8ef3fd59a9393f9fa139841db57bf1633",
+    "last_check": "2025-11-03T18:36:26"
+  },
+  "TotalEnergies": {
+    "hash": "5e0ec7ec8d47ab720d19858a0c154a6b3bc7dbb37e5441a287d1f0dd253619e3",
+    "last_check": "2025-11-03T18:36:37"
+  },
+  "Mint Energie": {
+    "hash": "69e750dc3ca198f8bcd024a300b99de30ded8da9ef6f7c5bd6a590a52b68d910",
+    "last_check": "2025-11-03T18:36:48"
+  },
+  "Ilek": {
+    "hash": "c8876016de4e7b8357cfc2846c45b03cedc50690efaacb60de724118a177ff9f",
+    "last_check": "2025-11-03T18:36:58"
+  },
+  "Enercoop": {
+    "hash": "ad5088312c421938079b2ab753fa7b735c349115840b31e11949266ce3de8f26",
+    "last_check": "2025-11-03T18:37:09"
+  },
+  "Elmy": {
+    "hash": "3ea91e7fac428a131454a7aa45a6085214c88ad2ee2b711b2bf05ed26ba86437",
+    "last_check": "2025-11-03T18:37:20"
+  },
+  "Alpiq": {
+    "hash": "46059a187ec511af3fb1dc2c757bc2bb9e10aa0bda0f996e1c8f824343cca8f0",
+    "last_check": "2025-11-03T18:37:31"
+  },
+  "Happ-e": {
+    "hash": "82d3edd2b884067e419a2caab78b38d42a8785821b77aa10064a0044d23d3f0a",
+    "last_check": "2025-11-03T18:37:41"
+  }
+}

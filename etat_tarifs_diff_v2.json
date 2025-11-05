@@ -1,0 +1,140 @@
+{
+  "Ohm Énergie": {
+    "hash": "b7aeebed76fb73c8159a7aef6b698db1d8fc66e6dfc0ce210402b80124e1f6f8",
+    "last_check": "2025-11-04T15:17:18",
+    "snapshot": "snapshots_v2/20251104T151718Z_Ohm_Énergie.html",
+    "url": "https://www.ohm-energie.com/electricite/offres"
+  },
+  "Ohm Énergie (CGV)": {
+    "hash": "da7d4695e59cfdef6ea9df7ae112b74bd270961432de15eeabf975e96e6921df",
+    "last_check": "2025-11-04T15:17:23",
+    "snapshot": "snapshots_v2/20251104T151723Z_Ohm_Énergie__CGV_.html",
+    "url": "https://www.ohm-energie.com/cgv"
+  },
+  "TotalEnergies": {
+    "hash": "e0558cdb5e9d4daeb23bc3db3562ad939d608ce546ced74c1d9e42931a551ec6",
+    "last_check": "2025-11-04T15:17:39",
+    "snapshot": "snapshots_v2/20251104T151739Z_TotalEnergies.html",
+    "url": "https://www.totalenergies.fr/particuliers/electricite-gaz"
+  },
+  "Ekwateur": {
+    "hash": "f1afa8387e38fb483589a66fdaa86899ffaffda07eec5a9ac3a6bb494c4ead9a",
+    "last_check": "2025-11-04T15:17:45",
+    "snapshot": "snapshots_v2/20251104T151745Z_Ekwateur.html",
+    "url": "https://ekwateur.com/energie/"
+  },
+  "Alpiq": {
+    "hash": "b47dd362edffab9602d1605c03a0659e84185f1ec460f3a71fcbb55c957978eb",
+    "last_check": "2025-11-04T15:17:53",
+    "snapshot": "snapshots_v2/20251104T151753Z_Alpiq.html",
+    "url": "https://www.alpiq.fr/offres-electricite-particuliers"
+  },
+  "Alterna": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "last_check": "2025-11-04T15:18:00",
+    "snapshot": "snapshots_v2/20251104T151800Z_Alterna.html",
+    "url": "https://www.alterna.fr/offres"
+  },
+  "Dyneff": {
+    "hash": "26ff49777176325a11677efce6a8264e00f4006d8e95965718a16a4db4eaf240",
+    "last_check": "2025-11-04T15:18:07",
+    "snapshot": "snapshots_v2/20251104T151807Z_Dyneff.html",
+    "url": "https://www.dyneff.fr/particuliers/offres"
+  },
+  "Elecocite": {
+    "hash": "ddda380ca2df1c96e4fd2d5ac56da5de17830179f41a4896f5841fe02f406a5a",
+    "last_check": "2025-11-04T15:18:14",
+    "snapshot": "snapshots_v2/20251104T151814Z_Elecocite.html",
+    "url": "https://www.elecocite.fr/offres"
+  },
+  "Elmy": {
+    "hash": "c3a1d51461e583bec7a1d39d0659930221600750a2d45bbb542d4704ab2143e1",
+    "last_check": "2025-11-04T15:18:19",
+    "snapshot": "snapshots_v2/20251104T151819Z_Elmy.html",
+    "url": "https://www.elmy.fr/offres"
+  },
+  "Enercoop": {
+    "hash": "b7f218f094924acb210c19831060796b23a795a525319af86b50a6ce27f74f46",
+    "last_check": "2025-11-04T15:18:24",
+    "snapshot": "snapshots_v2/20251104T151824Z_Enercoop.html",
+    "url": "https://www.enercoop.fr/particuliers/offres/"
+  },
+  "Gedia": {
+    "hash": "7d504b9025b2b13f3e018a9be43b2d6e6832bdd5c1cd4469bda7d5a274953a8c",
+    "last_check": "2025-11-04T15:18:30",
+    "snapshot": "snapshots_v2/20251104T151830Z_Gedia.html",
+    "url": "https://www.gedia.fr/offres"
+  },
+  "GEG": {
+    "hash": "d505db70589c4ca066ae7221a2576f367b9076e9e26033ed875017650a7854c2",
+    "last_check": "2025-11-04T15:18:35",
+    "snapshot": "snapshots_v2/20251104T151835Z_GEG.html",
+    "url": "https://www.geg.fr/particuliers/offres"
+  },
+  "Happ-e": {
+    "hash": "c9c85da7946ffecc3a7f73316e1acb6de85c0302a2d777f21396a099538b83b6",
+    "last_check": "2025-11-04T15:18:41",
+    "snapshot": "snapshots_v2/20251104T151841Z_Happ_e.html",
+    "url": "https://www.happ-e.fr/offres"
+  },
+  "Ilek": {
+    "hash": "f657f835f1067d2188eda3128927b74559d08ca145e3a44db4cc077704f8059c",
+    "last_check": "2025-11-04T15:18:57",
+    "snapshot": "snapshots_v2/20251104T151857Z_Ilek.html",
+    "url": "https://www.ilek.fr/offres-electricite"
+  },
+  "Mint Energie": {
+    "hash": "2f90b46a26212d35977971acb51d4f31bfc746fdd3e1d31a07d4aa7b3da45428",
+    "last_check": "2025-11-04T15:19:04",
+    "snapshot": "snapshots_v2/20251104T151904Z_Mint_Energie.html",
+    "url": "https://www.mint-energie.com/offres"
+  },
+  "Octopus Energy": {
+    "hash": "986e533059613504233b93b0729e15426960d2f3be58f73b522987659fa19f05",
+    "last_check": "2025-11-04T15:19:11",
+    "snapshot": "snapshots_v2/20251104T151911Z_Octopus_Energy.html",
+    "url": "https://octopus.energy/fr/offres"
+  },
+  "Engie": {
+    "hash": "c5c4e215de06f25627065795f19df4efa829dd0ebd7a3f5db70e1e2a4d2e0703",
+    "last_check": "2025-11-04T15:19:15",
+    "snapshot": "snapshots_v2/20251104T151915Z_Engie.html",
+    "url": "https://particuliers.engie.fr/electricite/offres-electricite.html"
+  },
+  "Vattenfall": {
+    "hash": "081d682d98d0639f62e32e609191c14700e63afb4d59e3ded69ee910e385892e",
+    "last_check": "2025-11-04T15:19:21",
+    "snapshot": "snapshots_v2/20251104T151921Z_Vattenfall.html",
+    "url": "https://www.vattenfall.fr/particuliers/offres-electricite"
+  },
+  "Plüm Energie": {
+    "hash": "037204147fa3d370947a21a0508def5e0d5731da4807cce3337e5782a368ef96",
+    "last_check": "2025-11-04T15:19:31",
+    "snapshot": "snapshots_v2/20251104T151931Z_Plüm_Energie.html",
+    "url": "https://www.plumenergie.fr/offres"
+  },
+  "Sowee": {
+    "hash": "e94098b6fb5988b4e494c86f75e190cfb6e4b0356033fb1215fcbf2ef83e1d4e",
+    "last_check": "2025-11-04T15:19:37",
+    "snapshot": "snapshots_v2/20251104T151937Z_Sowee.html",
+    "url": "https://www.sowee.fr/offres/electricite"
+  },
+  "Proxelia": {
+    "hash": "eb17d11aa64fd33ba0c2af507ffa066fd74888deb564bf01556cf9befecb21db",
+    "last_check": "2025-11-04T15:19:54",
+    "snapshot": "snapshots_v2/20251104T151954Z_Proxelia.html",
+    "url": "https://www.proxelia.fr/nos-offres-electricite"
+  },
+  "Planète Oui": {
+    "hash": "2f90b46a26212d35977971acb51d4f31bfc746fdd3e1d31a07d4aa7b3da45428",
+    "last_check": "2025-11-04T15:19:59",
+    "snapshot": "snapshots_v2/20251104T151959Z_Planète_Oui.html",
+    "url": "https://www.planete-oui.fr/offres"
+  },
+  "Urban Solar Energy": {
+    "hash": "d44af42ad0bd3283a88eab9b71e9a225b9e0977d4683425c52b0ba1fd93f192c",
+    "last_check": "2025-11-04T15:20:22",
+    "snapshot": "snapshots_v2/20251104T152022Z_Urban_Solar_Energy.html",
+    "url": "https://www.urbansolarenergy.fr/offres-electricite/"
+  }
+}
