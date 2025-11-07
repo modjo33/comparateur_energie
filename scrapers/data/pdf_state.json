@@ -21,7 +21,7 @@
   "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Grille-tarifaire-Mont%20Gaz-PART-1125.pdf": "6a737a92bfdbf069483be3e8f5f254de03e27714c6ef1c651620099c13828a37",
   "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Grille-tarifaire-Nov'Alp%20Gaz-38-PART-1125.pdf": "4c230e9f1e32f9e4822edefedd168d7bb2d78f7be42f1f9fa38b0adbde76e1f3",
   "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Y%C3%A9li/2025-10_Y%C3%A9li-elec-verte.pdf": "36e6b8cf8d6dbcd72be0a04a8180697fdfd76f7aee3dd34f159025e96708c06d",
-  "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Y%C3%A9li/Grille_tarifaire_gaz-zone1_01042025.pdf": "20f41e9122e1d2b7688cbc1a4524934d3ef9f9f15100df3d84fd90c741a49592",
+  "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Y%C3%A9li/Grille_tarifaire_gaz-zone1_01042025.pdf": "bbd8b2fa6f9ab4dcc288b22e88dc594b609a77cca28a1ff1e8ffab7b5ee5f370",
   "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Y%C3%A9li/2025-10_Y%C3%A9li-elec-vert%20direct%20producteur.pdf": "d227181eb9707cf5ed622bc4d32886b37b761648084613fe2f7a262a23401530",
   "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Y%C3%A9li/2025-10_Y%C3%A9li-gaz-grenoble-villard-bonnot.pdf": "b8c82034b3693b405b06b56c0feb8ae1920733d094d4b270b210930083ad6569",
   "https://www.geg.fr/Medias/content-editor/Tarif%20Part/2025/Y%C3%A9li/2025-10_Y%C3%A9li-gaz-partout-en-fr.pdf": "6752f3b7303ad973478a590c6dae63993ee3856f1d24cfb719953ec1f9b1564a",
@@ -133,5 +133,7 @@
   "https://www.wekiwi.fr/wp-content/uploads/2025/11/1125_wekiPRO-NG-RENOUVELLEMENT-MARIE.pdf": "0b90c41096ea9316191199810576fa5b15d675253a23e7084791b4094bc720f5",
   "https://www.wekiwi.fr/wp-content/uploads/2025/09/Prestations-Enedis.pdf": "00a8f0c9d6fc96257fe522aa170ad9418e5dc5a6f90ec4ffbfcdb2c9c62b0d04",
   "https://www.wekiwi.fr/wp-content/uploads/2023/12/enedis-brochure-tarifaire-turpe6-1.pdf": "74df3067f647ff6db76dadc99b65b66336540d38cd37e4bc5843259b8d572492",
-  "https://www.wekiwi.fr/wp-content/uploads/2025/09/Catalogue-Prestation-Gaz.pdf": "7877b124b3de1eb8837ecc3a6aee66642cd49240cef5c682d1d88b257becda67"
+  "https://www.wekiwi.fr/wp-content/uploads/2025/09/Catalogue-Prestation-Gaz.pdf": "7877b124b3de1eb8837ecc3a6aee66642cd49240cef5c682d1d88b257becda67",
+  "https://ohm-energie.com/cgv/CGV_ELEC_2025-10-15.pdf": "54fae357c079180414b2b4c0b70e0b47d2109ab7ef046f05cfead494ddadce53",
+  "https://ohm-energie.com/cgv/CGV_GAZ_2025-10-15.pdf": "c77420af113c33cd3984cad95d2a31c7a0e76149cd231116d9870a56aa82eb20"
 }

@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import os
+import sys
 import json
 import hashlib
 import smtplib
@@ -10,6 +11,10 @@ from urllib.parse import urljoin, urlparse
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
+# --- Fix d'import pour trouver utils même si on exécute depuis /scrapers ---
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.log_utils import add_entry  # <-- import maintenant fonctionnel
 
 # === CONFIGURATION ===
 SMTP_SERVER = "smtp.gmail.com"
@@ -48,42 +53,13 @@ FOURNISSEURS = {
     "Octopus Energy": "https://octopusenergy.fr/offre-electricite-tarifs",
     "Ohm Énergie": "https://ohm-energie.com/offre/gaz-et-electricite",
     "Plénitude": "https://eniplenitude.fr/offre-plenifix?option=commodity-1",
-
-    # Groupe 4
-    "Primeo Énergie": "https://particuliers.primeo-energie.fr/",
-    "TotalEnergies": "https://totalenergies.fr/particuliers/electricite-et-gaz/grilles-tarifaires",
-    "UEM Metz": "https://particuliers.uem-metz.fr/nos-offres-denergies/offre-delectricite/",
-
-    # Groupe 5
-    "Urban Solar Energy": "https://urbansolarenergy.fr/tarifs/",
-    "Vattenfall Élec Verte Sérénité": "https://www.vattenfall.fr/electricite-et-gaz/elec-verte-serenite",
-    "Vattenfall Équilibre Verte": "https://www.vattenfall.fr/electricite-et-gaz/offres-electricite-moins-chere/equilibre-verte",
-    "Wekiwi": "https://wekiwi.fr/tarifs-et-cgv-wekiwi/",
 }
 
 SELECTEURS_PDF = {
     "Engie": "text=Détails & Tarifs",
-    "Ilek": None,
     "Happ-e": "text=Grille tarifaire",
     "GEG": "text=VOIR LES TARIFS",
-    "La Bellenergie": None,
-    "Llum": None,
-    "Mint Énergie": None,
-    "Alterna": None,
-    "Alpiq": None,
-    "Dyneff": None,
-    "Elmy": None,
-    "Enercoop": None,
-    "Octopus Energy": None,
-    "Ohm Énergie": None,
-    "Plénitude": None,
-    "Primeo Énergie": None,
-    "TotalEnergies": None,
-    "UEM Metz": None,
-    "Urban Solar Energy": None,
-    "Vattenfall Élec Verte Sérénité": None,
-    "Vattenfall Équilibre Verte": None,
-    "Wekiwi": None,
+    "Plénitude": "text=Voir la fiche",
 }
 
 # === OUTILS ===
@@ -102,6 +78,7 @@ def envoyer_mail(sujet, corps_html):
     except Exception as e:
         print(f"❌ Échec envoi mail : {e}")
 
+
 def charger_state():
     if not os.path.exists(PDF_STATE_FILE):
         return {}
@@ -111,14 +88,17 @@ def charger_state():
     except Exception:
         return {}
 
+
 def sauver_state(state):
     with open(PDF_STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+
 
 def sha256_bytes(data: bytes) -> str:
     h = hashlib.sha256()
     h.update(data)
     return h.hexdigest()
+
 
 def safe_filename_from_url(url):
     name = os.path.basename(urlparse(url).path)
@@ -126,10 +106,12 @@ def safe_filename_from_url(url):
         name = f"file_{hashlib.sha1(url.encode()).hexdigest()[:8]}.pdf"
     return name
 
+
 def ensure_archive_folder():
     folder = os.path.join(ARCHIVE_ROOT, datetime.now().strftime("%Y-%m-%d"))
     os.makedirs(folder, exist_ok=True)
     return folder
+
 
 def try_handle_cookies_and_overlays(page):
     try:
@@ -151,6 +133,7 @@ def try_handle_cookies_and_overlays(page):
     except Exception:
         pass
 
+
 def download_pdf(context, url, save_path):
     r = context.request.get(url)
     if r.status != 200:
@@ -159,6 +142,7 @@ def download_pdf(context, url, save_path):
     with open(save_path, "wb") as f:
         f.write(data)
     return data
+
 
 def find_pdf_links_in_dom(page, base_url=None):
     try:
@@ -170,38 +154,53 @@ def find_pdf_links_in_dom(page, base_url=None):
         if not link:
             continue
         low = link.lower()
-        if any(x in low for x in ["cgv", "condition", "mention", "cookie", "confidentialite", "retractation"]):
+        if any(x in low for x in ["cgv", "condition", "mention", "cookie", "confidentialite", "retractation", "/cgv/"]):
             print(f"   🚫 Lien ignoré (non tarifaire) : {link}")
             continue
         found.append(link if link.startswith("http") else urljoin(base_url, link))
     return list(dict.fromkeys(found))
 
+
 def fetch_pdfs(page, context, provider, url, selector=None):
     results = []
     folder = ensure_archive_folder()
-    timeout = 120000 if provider in ("Ilek", "GEG") else 60000
+    timeout = 120000 if provider in ("Ilek", "GEG", "Elmy") else 60000
     page.goto(url, timeout=timeout, wait_until="load")
     page.wait_for_timeout(3000)
     try_handle_cookies_and_overlays(page)
 
-    # Fournisseurs simples (DOM)
-    simple_dom = set(FOURNISSEURS.keys())
-    if provider in simple_dom:
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        page.wait_for_timeout(1500)
-        links = find_pdf_links_in_dom(page, base_url=url)
-        for link in links:
-            name = safe_filename_from_url(link)
-            save_path = os.path.join(folder, name)
-            data = download_pdf(context, link, save_path)
-            print(f"   🔎 PDF téléchargé depuis DOM : {link}")
-            results.append((link, save_path, data))
-        return results
+    # === Cas spécifique GEG (nouvel onglet) ===
+    if provider == "GEG" and selector:
+        try:
+            with context.expect_page() as new_page_info:
+                page.click(selector, timeout=10000)
+            new_page = new_page_info.value
+            new_page.wait_for_load_state("load", timeout=120000)
+            try_handle_cookies_and_overlays(new_page)
+            links = find_pdf_links_in_dom(new_page, base_url=url)
+            for link in links:
+                name = safe_filename_from_url(link)
+                save_path = os.path.join(folder, name)
+                data = download_pdf(context, link, save_path)
+                print(f"   🔎 PDF trouvé nouvel onglet : {link}")
+                results.append((link, save_path, data))
+            return results
+        except Exception as e:
+            print(f"   ⚠️ GEG nouvel onglet : {e}")
 
+    # === Cas généraux DOM ===
+    links = find_pdf_links_in_dom(page, base_url=url)
+    for link in links:
+        name = safe_filename_from_url(link)
+        save_path = os.path.join(folder, name)
+        data = download_pdf(context, link, save_path)
+        print(f"   🔎 PDF téléchargé depuis DOM : {link}")
+        results.append((link, save_path, data))
     return results
 
+
 def main():
-    print("⚡ Surveillance PDF (édition complète avec Wekiwi)\n")
+    print("⚡ Surveillance PDF (v2.2 — Groupes 1, 2 et 3 inclus)\n")
     state = charger_state()
     new_state = state.copy()
     changes = []
@@ -228,6 +227,7 @@ def main():
                     new_state[pdf_url] = h
                     if h != prev:
                         changes.append((provider, pdf_url, path))
+                        add_entry(provider, os.path.basename(path), pdf_url)
                         print(f"   📄 Nouvelle grille détectée : {os.path.basename(path)}")
                     else:
                         print(f"   ✅ PDF inchangé : {os.path.basename(path)}")
@@ -243,25 +243,18 @@ def main():
     if changes:
         html = [
             "<h2 style='color:#0055cc'>⚡ Nouvelles grilles tarifaires détectées</h2>",
-            "<table border='1' cellspacing='0' cellpadding='6' "
-            "style='border-collapse:collapse;font-family:sans-serif'>",
+            "<table border='1' cellspacing='0' cellpadding='6' style='border-collapse:collapse;font-family:sans-serif'>",
             "<tr style='background:#eaeaea'><th>Fournisseur</th><th>Fichier</th><th>URL</th></tr>",
         ]
         for prov, url, path in changes:
-            html.append(
-                f"<tr><td><b>{prov}</b></td>"
-                f"<td>{os.path.basename(path)}</td>"
-                f"<td><a href='{url}'>{url}</a></td></tr>"
-            )
+            html.append(f"<tr><td><b>{prov}</b></td><td>{os.path.basename(path)}</td><td><a href='{url}'>{url}</a></td></tr>")
         html.append("</table>")
         envoyer_mail("⚡ Nouvelles grilles tarifaires détectées", "\n".join(html))
     else:
         print("\n📢 Aucun changement détecté.")
         if ALWAYS_NOTIFY:
-            envoyer_mail(
-                "✅ Surveillance PDF : RAS",
-                "<p>Aucun changement détecté sur les grilles tarifaires aujourd’hui.</p>",
-            )
+            envoyer_mail("✅ Surveillance PDF : RAS", "<p>Aucun changement détecté sur les grilles tarifaires aujourd’hui.</p>")
+
 
 if __name__ == "__main__":
     main()

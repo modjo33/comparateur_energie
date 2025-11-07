@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}Tableau de bord des grilles tarifaires{% endblock %}
+
+{% block content %}
+
+<h1 class="page-title">Tableau de bord des grilles tarifaires</h1>
+
+<!-- Cartes KPI -->
+<section class="kpi-row">
+  <div class="kpi-card">
+    <div class="kpi-label">📄 Total de grilles (filtrées)</div>
+    <div class="kpi-value">{{ total_grilles }}</div>
+  </div>
+
+  <div class="kpi-card">
+    <div class="kpi-label">⚡ Fournisseurs suivis</div>
+    <div class="kpi-value">{{ total_fournisseurs }}</div>
+  </div>
+
+  <div class="kpi-card">
+    <div class="kpi-label">⏱ Dernière mise à jour</div>
+    <div class="kpi-value small">{{ last_update_str }}</div>
+  </div>
+</section>
+
+<!-- Filtre fournisseur -->
+<section class="filter-row">
+  <form method="get">
+    <label for="fournisseur">Filtrer par fournisseur :</label>
+    <select
+      id="fournisseur"
+      name="fournisseur"
+      onchange="this.form.submit()"
+    >
+      <option value="Tous" {% if selected_fournisseur == 'Tous' %}selected{% endif %}>
+        Tous
+      </option>
+      {% for f in fournisseurs_all %}
+        <option value="{{ f }}" {% if selected_fournisseur == f %}selected{% endif %}>
+          {{ f }}
+        </option>
+      {% endfor %}
+    </select>
+  </form>
+</section>
+
+<!-- Tableau de synthèse par fournisseur -->
+<section class="card">
+  <h2 class="section-title">Synthèse par fournisseur</h2>
+
+  {% if rows %}
+    <div class="table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Fournisseur</th>
+            <th>Nombre de grilles</th>
+            <th>Dernière mise à jour</th>
+            <th>Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in rows %}
+            <tr>
+              <td>{{ row.fournisseur }}</td>
+              <td>{{ row.count }}</td>
+              <td>{{ row.last_update }}</td>
+              <td>
+                <span class="status-pill {{ row.status_class }}">
+                  {{ row.status_label }}
+                </span>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% else %}
+    <p>Aucune donnée pour ce filtre.</p>
+  {% endif %}
+</section>
+
+<!-- Graphique d'activité -->
+<section class="card">
+  <h2 class="section-title">Activité quotidienne</h2>
+
+  {% if graph_html %}
+    <div class="chart-container">
+      {{ graph_html|safe }}
+    </div>
+  {% else %}
+    <p>Aucune activité enregistrée pour ce filtre.</p>
+  {% endif %}
+</section>
+
+{% endblock %}
