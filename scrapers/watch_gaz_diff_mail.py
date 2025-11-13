@@ -271,11 +271,11 @@ def main():
         for prov, url, path in changes:
             html.append(f"<tr><td><b>{prov}</b></td><td>{os.path.basename(path)}</td><td><a href='{url}'>{url}</a></td></tr>")
         html.append("</table>")
-        envoyer_mail("🔥 Nouvelles grilles GAZ détectées", "\n".join(html))
+        envoyer_mail("🚨 Nouvelle publication détectée : grilles tarifaires GAZ mises à jour", "\n".join(html))
     else:
         print("\n📢 Aucun changement GAZ détecté.")
         if ALWAYS_NOTIFY:
-            envoyer_mail("✅ Surveillance GAZ : RAS", "<p>Aucune nouvelle grille gaz détectée aujourd’hui.</p>")
+            envoyer_mail("✅ Surveillance GAZ : RAS", "<p>Aucune nouvelle grille détectée, Tu peux boire ton thé tranquille, tout est stable....</p>")
 
 if __name__ == "__main__":
     main()
