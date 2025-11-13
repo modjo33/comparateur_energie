@@ -1,0 +1,525 @@
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="fr">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Fournisseur d'électricité et de gaz Grenoblois | GEG
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" /><meta name="description" content="GEG, fournisseur d&#39;énergie en électricité et gaz pour particuliers sur Grenoble. Souscrivez à un contrat en ligne au meilleur rapport qualité/prix et sans engagement." /><meta name="author" content="Celuga.fr" />
+    <!-- Tweet cards -->
+    <meta name="twitter:card" content="summary" /><meta id="metaTagOgXTitle" name="twitter:title" content="Fournisseur d&#39;électricité et de gaz Grenoblois | GEG" /><meta name="twitter:description" content="GEG, fournisseur d&#39;énergie en électricité et gaz pour particuliers sur Grenoble. Souscrivez à un contrat en ligne au meilleur rapport qualité/prix et sans engagement." /><meta id="metaTagOgXImg" name="twitter:image" content="https://www.geg.fr/img/TWITTER-CARD.png" /><meta name="twitter:site" content="@CELUGA_" /><meta name="twitter:creator" content="@CELUGA_" />
+    <!-- fin Tweet cards -->
+    <!-- Open graph FB -->
+    <meta id="metaTagOgFBUrl" property="og:url" content="https://www.geg.fr/404/" /><meta id="metaTagOgFBTitle" property="og:title" content="Fournisseur d&#39;électricité et de gaz Grenoblois | GEG" /><meta property="og:description" content="GEG, fournisseur d&#39;énergie en électricité et gaz pour particuliers sur Grenoble. Souscrivez à un contrat en ligne au meilleur rapport qualité/prix et sans engagement." /><meta id="metaTagOgFBType" property="og:type" content="website" /><meta id="metaTagOgFBImg" property="og:image" content="https://www.geg.fr/img/open-graph-FB.png" /><meta property="og:image:secure_url" content="https://www.geg.fr/img/open-graph-FB.png" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:image:type" content="image/png" />
+    <!-- fin Open graph FB -->
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap-reboot.css" rel="stylesheet" /><link href="/css/bootstrap-theme.css" rel="stylesheet" /><link href="/css/bootstrap-grid.css" rel="stylesheet" />
+    <!-- Animations -->
+    <link href="/css/animations.css" rel="stylesheet" /><link href="/css/animate.min.css" rel="stylesheet" /><link href="/css/aos.css" rel="stylesheet" />
+    <!-- Styles personnalisés -->
+    <link href="/css/formulaire.css" rel="stylesheet" /><link href="/css/styles.css?v=5" rel="stylesheet" /><link href="/css/megamenus.css" rel="stylesheet" />
+    <!-- slider temoignages -->
+    <link href="/css/owl.carousel.min.css" rel="stylesheet" /><link href="/js/slick/slick.css" rel="stylesheet" /><link href="/js/slick/slick-theme.css" rel="stylesheet" /><link href="/fonts/icomoon/icomoon.css?v=1" rel="stylesheet" />
+    <!-- PICTOS FONT -->
+    <link href="/css/all.css" rel="stylesheet" />
+    <!-- LEAFLET -->
+    <link href="/js/leaflet/leaflet.css" rel="stylesheet" /><link href="/js/leaflet/MarkerCluster.css" rel="stylesheet" /><link href="/js/leaflet/MarkerCluster.Default.css" rel="stylesheet" />
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" type="image/x-icon" /><link rel="icon" sizes="16x16" href="/img/favicon/favicon-16.png" type="image/png" /><link rel="icon" sizes="32x32" href="/img/favicon/favicon-32.png" type="image/png" /><link rel="icon" sizes="48x48" href="/img/favicon/favicon-48.png" type="image/png" /><link rel="icon" sizes="96x96" href="/img/favicon/favicon-96.png" type="image/png" /><link rel="icon" sizes="192x192" href="/img/favicon/favicon-192.png" type="image/png" /><link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="80x80" href="/img/favicon/apple-touch-icon-iphone.png" /><link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-touch-icon-ipad.png" /><link rel="apple-touch-icon" sizes="167x167" href="/img/favicon/apple-touch-icon-ipad-retina.png" /><link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon-iphone-retina.png" /><meta name="msapplication-TileImage" content="/img/favicon/ms-favicon-144.png" /><meta name="msapplication-TileColor" content="#FFFFFF" />
+    <!-- Google Tag Manager + Meta Pixel Code -->
+    <script type="text/javascript">
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T2BBDT');
+    </script>
+    <script type="text/javascript" src="/js/tarteaucitron/tarteaucitron.js?v=3"></script>
+    <script type="text/javascript">
+        tarteaucitron.init({
+            "privacyUrl": "/politique-de-confidentialite", /* Privacy policy url */
+
+            "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+            "cookieName": "tarteaucitron", /* Cookie name */
+
+            "orientation": "bottom", /* Banner position (top - bottom) */
+
+            "showAlertSmall": false, /* Show the small banner on bottom right */
+            "cookieslist": false, /* Show the cookie list */
+
+            "showIcon": false, /* Show cookie icon to manage cookies */
+            "iconPosition": "BottomRight", /* BottomRight, BottomLeft, TopRight and TopLeft */
+
+            "adblocker": false, /* Show a Warning if an adblocker is detected */
+
+            "DenyAllCta": true, /* Show the deny all button */
+            "AcceptAllCta": true, /* Show the accept all button when highPrivacy on */
+            "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+
+            "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+            "removeCredit": true, /* Remove credit link */
+            "moreInfoLink": true, /* Show more info link */
+            "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+
+            //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+
+            "readmoreLink": "/mentions-legales", /* Change the default readmore link */
+
+            "mandatory": true, /* Show a message about mandatory cookies */
+            "mandatoryCta": false, /* Afficher un bouton pour les cookies obligatoires (déconseillé) */
+            "cookieExpires": 182, // DurÃ©e en jours
+        });
+
+        tarteaucitron.user.matomotmUrl = 'https://matomo.eolas-services.com/js/container_8oilw3HB.js';
+        (tarteaucitron.job = tarteaucitron.job || []).push('matomotm');
+        tarteaucitron.user.linkedininsighttag = '514122051';
+        (tarteaucitron.job = tarteaucitron.job || []).push('linkedininsighttag');
+        tarteaucitron.user.googleadsId = 'AW-822740487';
+        (tarteaucitron.job = tarteaucitron.job || []).push('googleads');
+        (tarteaucitron.job = tarteaucitron.job || []).push('googleadwordsconversion');
+        tarteaucitron.user.facebookpixelId = '1916101448416585';
+        (tarteaucitron.job = tarteaucitron.job || []).push('facebookpixel');
+        (tarteaucitron.job = tarteaucitron.job || []).push('youtube');
+    </script>
+    
+</head>
+<body>
+    <!-- Google Tag Manager + Meta Pixel (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2BBDT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <form method="post" action="/404/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl51_TSM" id="ctl51_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZOovtkH0nuboJMTlrKvbGhpdD0FH_wmcjgt4t8eDeHh73PuZKHpNhqENDQeBkY78oQ2&amp;t=638628279619783110" type="text/javascript"></script>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl51_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3afr-FR%3a95047a2c-8908-49e3-b68e-d249be89f134%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="193A34DB" />
+</div>
+     <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl51', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+ 
+      <!-- PRELOADER -->
+      <div id="preloader-active">
+         <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+               <div class="preloader-circle"></div>
+               <div class="preloader-img pere-text">
+                  <img src="/img/sigle-GEG.png" alt="Celuga">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- FIN PRELOADER -->
+      <!-- TOP INFO -->
+      <div id="plnTopInfo" class="container-fluid top-bar bg-success">
+	
+         <div class="row align-items-center justify-content-between py-lg-2 d-none d-md-flex">
+            <div class="col-md-8 mb-3 mb-md-0">
+               <p class="mb-0"><p>Votre agence Vaucanson sera <strong>exceptionnellement fermée vendredi 14 novembre</strong>. Notre accueil téléphonique reste disponible de 8h00 à 19h00 </p></p>
+            </div>
+            <div class="col-md-4 text-md-right">
+               <p class="mb-0"></p> 
+            </div>
+         </div>
+         <div class="row py-2 d-md-none topBarCarousel">
+            <div class="col-12">
+               <div id="topBarCarousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner w-75 mx-auto">
+                     <div class="carousel-item text-center active">
+                        <p class="mb-0"><p>Votre agence Vaucanson sera <strong>exceptionnellement fermée vendredi 14 novembre</strong>. Notre accueil téléphonique reste disponible de 8h00 à 19h00 </p></p>
+                     </div>
+                     <div class="carousel-item text-center">
+                        <p class="mb-0"></p>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#topBarCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#topBarCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      
+</div>
+      <header>
+         <!-- ============= MENU ============== -->
+         
+<nav id="navbar_top" class="megamenu navbar navbar-expand-xl  navbar-classic navbar-dark bg-transparent pl-0 px-lg-5">
+   <a class="navbar-brand accueil" href="/" data-aos="fade-down" data-aos-delay="0" data-aos-duration="0"><img src="/img/logo-GEG.svg" class="logo-accueil" alt="" loading="lazy"></a>
+   <a role="button" href="/souscription/part/" class="nav-link btn btn-secondary mb-0 d-lg-none btn-souscrire-hidden">Je souscris</a>
+   <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-classic" aria-controls="navbar-classic" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="icon-bar top-bar mt-0"></span>
+   <span class="icon-bar middle-bar"></span>
+   <span class="icon-bar bottom-bar"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbar-classic">
+      <ul class="navbar-nav mr-auto mt-lg-4">
+         <!-- LE GROUPE GEG -->
+         <li id="headerGeg_liGroupeGeg" class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="groupe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Le groupe GEG </a>
+            <div class="dropdown-menu mega-dropdown-menu" aria-labelledby="groupe">
+               <div class="container-xl p-lg-5">
+                  <div class="row">
+                     <div class="col-lg-4 border-right border-light pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3 class="text-uppercase">Découvrir GEG</h3>
+                                <ul class="subnav">
+                                    <li class="subnav-item"><a href="/le-groupe-geg/decouvrir-geg/qui-sommes-nous/"  class="subnav-link" >Qui sommes nous ?</a></li><li class="subnav-item"><a href="/le-groupe-geg/decouvrir-geg/notre-raison-d-etre/"  class="subnav-link" >Notre raison d'être</a></li><li class="subnav-item"><a href="/le-groupe-geg/decouvrir-geg/espace-presse/"  class="subnav-link" >Espace presse</a></li>
+                                    <li class="subnav-item"><a href="/fondation/" target="_blank" class="subnav-link">La fondation GEG</a></li> 
+                                </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 border-right border-light pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3 class="text-uppercase">Nos métiers</h3>
+                                <ul class="subnav">
+                                    <li class="subnav-item"><a href="/le-groupe-geg/nos-metiers/la-production/"  class="subnav-link" >La production</a></li><li class="subnav-item"><a href="/le-groupe-geg/nos-metiers/la-fourniture/"  class="subnav-link" >La fourniture</a></li><li class="subnav-item"><a href="/le-groupe-geg/nos-metiers/la-distribution/"  class="subnav-link" >La distribution</a></li><li class="subnav-item"><a href="/le-groupe-geg/nos-metiers/l-eclairage-public/"  class="subnav-link" >L'éclairage public</a></li><li class="subnav-item"><a href="/le-groupe-geg/nos-metiers/la-mobilite-durable/"  class="subnav-link" >La mobilité durable</a></li>  
+                                </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3 class="text-uppercase">Rejoignez-nous</h3>
+                                <ul class="subnav">
+                                    <li class="subnav-item"><a href="/le-groupe-geg/rejoignez-nous/pourquoi-nous-rejoindre/"  class="subnav-link" >Pourquoi nous rejoindre ?</a></li><li class="subnav-item"><a href="/le-groupe-geg/rejoignez-nous/offres-emploi/"  class="subnav-link" >Nos offres d'emploi</a></li><li class="subnav-item"><a href="/le-groupe-geg/rejoignez-nous/candidature-spontanee/"  class="subnav-link" >Candidature spontanée</a></li>  
+                                </ul>
+                           </div>
+                           <div class="col-12 align-self-end">
+                              <p class="mb-0"><a id="headerGeg_lnkJePostule" class="btn btn-outline-secondary btn-lg btn-block" href="/le-groupe-geg/rejoignez-nous/offres-emploi/">Je postule</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--  /.container  -->
+            </div>
+         </li>
+         <!--Nos énergies renouvelables -->
+         <li id="headerGeg_liEnergieRenouvelable" class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="ernergiesr" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos énergies renouvelables</a>
+            <div class="dropdown-menu mega-dropdown-menu" aria-labelledby="ernergiesr">
+               <div class="container-xl p-lg-5">
+                  <div class="row">
+                     <div class="col-lg-4 border-right border-light pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3>GEG ENeR, PRODUCTEUR</h3>
+                              <ul class="subnav">
+                                 <li class="subnav-item"><a href="/nos-energies-renouvelables/geg-ener-producteur/expertise-et-accompagnement/"  class="subnav-link" >Expertise et accompagnement</a></li><li class="subnav-item"><a href="/nos-energies-renouvelables/geg-ener-producteur/nos-ouvrages-d-energie-verte/"  class="subnav-link" >Nos ouvrages d'énergie verte</a></li><li class="subnav-item"><a href="/nos-energies-renouvelables/geg-ener-producteur/nos-partenaires/"  class="subnav-link" >Nos partenaires</a></li>  
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 border-right border-light pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3 class="text-uppercase">Nos domaines de compétences</h3>
+                              <ul class="subnav">
+                                 <li class="subnav-item"><a href="/nos-energies-renouvelables/nos-domaines-de-competences/developpement-de-projet/"  class="subnav-link" >Développement de projet</a></li><li class="subnav-item"><a href="/nos-energies-renouvelables/nos-domaines-de-competences/maintenance-et-exploitation/"  class="subnav-link" >Maintenance et exploitation</a></li>  
+                              </ul>
+                           </div>
+                           <!--
+                            <div class="col-12 align-self-end">
+                              <p class="mb-0">
+                                 <a href="demande-de-devis.html" class="btn btn-lg btn-block btn-outline-secondary">Je contacte l'équipe projet</a>
+                              </p>
+                           </div>
+                            -->
+                        </div>
+                     </div>
+                     <div class="col-lg-4 pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3 class="text-uppercase">Obtenir un contrat d'achat</h3>
+                              <ul class="subnav">
+                                 <li class="subnav-item"><a href="/nos-energies-renouvelables/obtenir-un-contrat-d-achat/mode-d-emploi/"  class="subnav-link" >Mode d'emploi</a></li><li class="subnav-item"><a href="/nos-energies-renouvelables/obtenir-un-contrat-d-achat/demande-de-contrat-d-achat/"  class="subnav-link" >Demande de contrat d'achat</a></li>  
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--  /.container  -->
+            </div>
+         </li>
+         <!-- Nos offres -->
+         <li id="headerGeg_liNosOffres" class="nav-item dropdown mega-dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Nos offres </a>
+            <div class="dropdown-menu mega-dropdown-menu" aria-labelledby="navbarDropdown">
+               <div class="container-xl p-lg-5">
+                  <div class="row">
+                     <div class="col-lg-3 border-right border-light pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3 class="text-uppercase">Particuliers</h3>
+                              <ul class="subnav">
+                                 <li class="subnav-item"><a href="/nos-offres/particuliers/offres-d-energies/"  class="subnav-link" >Offres d'énergies</a></li><li class="subnav-item"><a href="/nos-offres/particuliers/primes-economie-d-energie/"  class="subnav-link" >Primes Economie d'Energie</a></li><li class="subnav-item"><a href="/nos-offres/particuliers/cheque-energie/"  class="subnav-link" >Chèque énergie</a></li><li class="subnav-item"><a href="/nos-offres/particuliers/demenagement/"  class="subnav-link" >Déménagement</a></li><li class="subnav-item"><a href="/nos-offres/particuliers/nos-services/"  class="subnav-link" >Nos services</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-12 align-self-end">
+                              <p class="mb-0"><a href="/souscription/part/" class="btn btn-lg btn-block btn-outline-secondary">Je souscris</a></p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 border-right border-light pl-lg-5 pr-lg-5">
+                        <div class="row h-100">
+                           <div class="col-12">
+                              <h3 class="text-uppercase">Professionnels</h3>
+                           </div>
+                           <ul class="subnav">
+                                <li class="subnav-item"><a href="/nos-offres/professionels/tpe-pme-et-professions-liberales/"  class="subnav-link" > TPE, PME et professions libérales</a></li><li class="subnav-item"><a href="/nos-offres/professionels/entreprises-et-industries/"  class="subnav-link" >Entreprises et industries</a></li><li class="subnav-item"><a href="/nos-offres/professionels/syndics-et-coproprietes/"  class="subnav-link" >Syndics et copropriétés</a></li><li class="subnav-item"><a href="/nos-offres/professionels/collectivites-etablissements-publics/"  class="subnav-link" >Collectivités, établissements publics </a></li><li class="subnav-item"><a href="/nos-offres/professionels/aides-financieres-cee/"  class="subnav-link" >Aides financières CEE</a></li>
+                           </ul>
+                           <div class="col-12 align-self-end">
+                              <p class="mb-0">
+                                 <a href="/devis-pro/" class="btn btn-lg btn-block btn-outline-secondary">Je demande un devis</a>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 pl-lg-5 pr-lg-5">
+                        <div class="row">
+                           <div class=" col-12">
+                              <h3 class="text-uppercase">Mobilité durable</h3>
+                           </div>
+                           <ul class="subnav">
+                                <li class="subnav-item"><a href="/nos-offres/mobilite-durable/biognc-et-gnc/"  class="subnav-link" >BioGnC et GNC</a></li><li class="subnav-item"><a href="/nos-offres/mobilite-durable/bornes-pour-vehicules-electriques/"  class="subnav-link" >Bornes pour véhicules électriques</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </li>
+         <!-- Aide et contact-->
+         <li id="headerGeg_liAideContact" class="nav-item dropdown no-mega ">
+            <a class="nav-link dropdown-toggle" href="#" id="aide" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aide et contact</a>
+            <div class="dropdown-menu" aria-labelledby="aide">
+               <a href="/aide-et-contact/centre-aide-contact/"  class="dropdown-item" >Centre aide et contact</a><a href="/aide-et-contact/centre-documentation/"  class="dropdown-item" >Centre de documentation</a><a href="/aide-et-contact/nos-agences/"  class="dropdown-item" >Nos agences</a>
+            </div>
+         </li>
+         <li id="headerGeg_liBlog" class="nav-item "><a class="nav-link" href="/blog/" id="blog" role="button">Le Blog</a></li>
+      </ul>
+      <ul class="navbar-nav ml-lg-auto btns-top">
+         <li class="nav-item"> <a class="nav-link btn btn-lg btn-light" href="/souscription/part/">Je souscris</a> </li>
+         <li class="nav-item"> <a class="nav-link btn-circle justify-content-center" href="/espace-client/" target="_blank" ><i class="fa-sharp fa-light fa-user"></i></a> </li>
+         <li class="nav-item">
+            <label for="night-light-checkbox" class="night-light-label">
+               <input type="checkbox" id="night-light-checkbox">
+               <span class="night-light-ball"></span>
+                <svg viewBox="0 0 512 512" class="sun-svg">
+                    <path id="sun-svg" d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z">
+                    </path>
+                </svg>
+                <svg viewBox="0 0 512 512" class="moon-svg">
+                    <path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664 c1.792,3.456,5.333,5.653,9.216,5.739c3.669-0.107,7.531-1.941,9.472-5.333C64.15,271.104,143.296,151.893,274.006,88.555 c5.355-2.56,11.755-0.363,14.293,4.907c2.56,5.312,0.341,11.712-4.949,14.272c-9.856,4.779-19.328,9.984-28.608,15.381 c-3.541,2.069-6.976,4.267-10.453,6.421c-5.227,3.243-10.389,6.549-15.424,9.963c-5.013,3.371-9.963,6.827-14.827,10.368 c-1.515,1.109-2.965,2.24-4.459,3.371C79.488,250.176,0,404.821,0,458.667c0,5.888,4.779,10.667,10.667,10.667 s10.667-4.779,10.667-10.667c0-17.195,11.712-52.053,33.877-93.632c32.171,26.304,75.456,40.299,126.123,40.299 c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752 C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
+                </svg>
+            </label>
+         </li>
+      </ul>
+   </div>
+</nav>
+         <div class="megamenu-dim" id="megamenu-dim"></div>
+         <!-- ============= MENU END// ============== -->
+          <!-- ============= HERO ============== -->
+         
+   <div class="row justify-content-center small-hero align-items-end text-white">
+   <div class="col-lg-6 z-2 text-center" data-aos="fade" data-aos-delay="1000">
+      <p class="h1 font-script mb-5 text-secondary">Page introuvable</p>
+   </div>
+</div>
+
+          <!-- ============= /HERO ============== -->
+      </header>
+      <main>
+          <!-- ============= BREADCRUMB ============== -->
+         
+  <section id="breadcrumb">
+   <div class="container-xl">
+      <div class="row"></div>
+      <div class="col-12">
+         <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+               <li class="breadcrumb-item active" aria-current="page">404</li>
+            </ol>
+         </nav>
+      </div>
+   </div>
+</section>
+
+          <!-- ============= BREADCRUMB// ============== -->
+        
+    <section>
+   <div class="container py-lg-5 py-3">
+      <div class="row justify-content-center align-items-center">
+         <div class="col-lg-4">
+            <p class="text-center text-secondary">
+               <i class="fa-solid fa-triangle-exclamation display-1"></i>
+            </p>
+         </div>
+         <div class="col-lg-7">
+            <p class="h3 text-primary">Désolé, il semble que la page que vous recherchez n'existe pas ou plus !</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+      </main>
+
+      
+
+<footer class="bg-success">
+       <div class="container-xl py-5">
+          <div class="row">
+             <div class="col-lg-3 col-md-6">
+                <h2 class="mb-4">Nos offres et services</h2>
+                <ul class="list-unstyled">
+                   <li class="mb-0"><a href="/offres/" role="button">Offres d'énergie Particuliers</a></li>
+                   <li class="mb-0"><a href="/pro/" role="button">Offres d'énergie Professionnels</a></li>
+                   <li class="mb-0"><a href="/nos-offres/particuliers/nos-services/" role="button">Services</a></li>
+                </ul>
+                 <div id="cust-widget-note" data-id="119497"   data-locale="fr" background-layout="#044865" data-layout="footerBottom" ></div>
+             </div>
+             <div class="col-lg-3 col-md-6">
+                <h2 class="mb-4">Nos espaces dédiés</h2>
+                <ul class="list-unstyled">
+                   <li class="mb-0"><a href="/le-groupe-geg/rejoignez-nous/offres-emploi/" role="button">Espace offres d'emploi</a></li>
+                   <li class="mb-0"><a href="/le-groupe-geg/decouvrir-geg/espace-presse/" role="button">Espace presse</a></li>
+                   <li class="mb-0"><a href="/espace-client/" role="button" target="_blank" >Espace client</a></li>
+                   <li class="mb-0"><a href="/aide-et-contact/centre-documentation/particulier/" role="button">Espace documentation</a></li>
+                   <li class="mb-0"><a href="/marches-publics/" role="button">Marchés publics</a></li>
+                </ul>
+             </div>
+             <div class="col-lg-3 col-md-6">
+                <h2 class="mb-4">S'informer</h2>
+                <ul class="list-unstyled">
+                   <li class="mb-0"><a href="/aide-et-contact/centre-aide-contact/" role="button">Centre d'aide</a></li>
+                   <li class="mb-0"><a href="/blog/" role="button">Le Blog</a></li>
+                </ul>
+                <ul class="list-inline reseaux">
+                   <li class="list-inline-item"><a href="https://www.facebook.com/GazElectriciteGrenoble/" role="button" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                   <li class="list-inline-item"><a href="https://www.instagram.com/gazelectricitegrenoble" role="button" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li class="list-inline-item"><a href="https://www.youtube.com/user/GEGvideos" role="button" target="_blank" title="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                   <li class="list-inline-item"><a href="https://www.linkedin.com/company/gaz-electricit%C3%A3%C2%A9-de-grenoble-se" role="button" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+             </div>
+             <div class="col-lg-3 col-md-6">
+                <h2 class="mb-4">Fondation Groupe GEG</h2>
+                <p>Abritée par la Fondation de France, elle souhaite sensibiliser et lutter contre toutes les précarités, sociales, économiques, énergétiques et environnementales.</p>
+                <p><a href="/fondation/" target="_blank" class="btn btn-secondary">Je découvre sa mission</a></p>
+             </div>
+             <hr class="bg-secondary w-50 ml-auto mr-auto my-2">
+             <div class="col-12 text-center liens-footer">
+                © 2025 GEG - L&rsquo;énergie est notre avenir, économisons-la ! - Une réalisation <a href="https://www.celuga.fr" target="_blank" class="text-gray-light">Celuga.fr</a>
+                <ul class="list-inline">
+                   <li class="list-inline-item"><a href="/politique-de-confidentialite/">Politique de confidentialité</a></li>
+                   <li class="list-inline-item">|</li>
+                   <li class="list-inline-item"><a href="/mentions-legales/">Mentions légales</a></li>
+                   <li class="list-inline-item">|</li>
+                   <li class="list-inline-item"><a href="javascript:;" onclick="tarteaucitron.userInterface.openPanel();">Gestion des cookies</a></li>
+                   <li class="list-inline-item">|</li>
+                   <li class="list-inline-item"><a href="/cgv-pour-les-particuliers-et-les-professionnels/">C.G.V.</a></li>
+                   <li class="list-inline-item">|</li>
+                   <li class="list-inline-item"><a href="/tarifs-pour-les-particuliers-et-professionnels/">Tarifs</a></li>
+                </ul>
+             </div>
+          </div>
+       </div>
+    </footer>  
+      
+      <!-- ============= AIDES ============== -->
+        
+
+        <!-- ============= TEL ============== -->
+         
+      
+
+     <!-- SCRIPTS -->
+     <script type="text/javascript" src="/js/jquery.min.js"></script>
+     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="/js/aos.js"></script>
+     <script type="text/javascript" src="/js/slick/slick.js"></script>
+     <script type="text/javascript" src="/js/scripts.js"></script>
+     <script type="text/javascript" src="/js/jquery.parallax-scroll.js"></script>
+     <script type="text/javascript" src="/js/jquery.ellipsis.js"></script>
+     <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+     <script type="text/javascript" src="/js/leaflet/leaflet.js"></script>
+     <script type="text/javascript" src="/js/leaflet/leaflet.markercluster.js"></script>
+     <script type="text/javascript" async src="https://widgets.custplace.com/rating/v4/embed.js"></script>
+     <script type="text/javascript" src="https://widgets.custplace.com/reviews/carousel/v1/embed.js"></script>
+
+     <!-- owl carousel script -->
+     <script type="text/javascript">
+         $(".owl-carousel").owlCarousel({
+             loop: true,
+             margin: 40,
+             navText: [],
+             center: true,
+             autoplay: true,
+             autoplayHoverPause: true,
+             responsive: {
+                 0: {
+                     items: 1
+                 },
+                 1000: {
+                     items: 3
+                 }
+             }
+         });
+     </script>
+
+     
+
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl51_TSM');//]]>
+</script>
+</form>
+</body>
+</html>
